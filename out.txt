@@ -1,0 +1,21 @@
+.model small
+.stack 100H
+.data 
+
+x  dw  0
+y  dw  0
+z  dw  0
+a  dw  0
+b  dw  0
+c  dw  0
+.code
+
+
+main proc
+
+MOV AX,@data 
+MOV ds,AX 
+MOV es,AX 
+
+main endp
+end main

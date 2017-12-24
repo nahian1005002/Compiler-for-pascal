@@ -1,0 +1,13 @@
+var d,e,g : real ;
+ var x,y,z,a,b,c : integer ;
+begin
+x:=5;
+y:=3;
+x:=x*y;
+while y<>8
+do
+begin x:=x+1;
+y:=y+1
+end;
+x:=-4
+end
